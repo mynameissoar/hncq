@@ -4,14 +4,17 @@ spring:
   application:
     name: test-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/leyou?characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: 123456
+    url: jdbc:mysql://39.106.118.94:3306/leyou?characterEncoding=UTF-8&useSSL=false
+    username: huanuo
+    password: root123
     hikari:
       maximum-pool-size: 20
       minimum-idle: 10
   rabbitmq:
-    host: 192.168.19.121
+    virtual-host: /hncq
+    username: /hncq
+    password: 1q2w3e4r%T^Y&U*I
+    host: 39.106.117.66
   data:
     mongodb:
       host: localhost
