@@ -11,7 +11,7 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 10
   redis:
-    host: 192.168.19.121
+    host: 39.106.117.66
   rabbitmq:
     virtual-host: /hncq
     username: /hncq
